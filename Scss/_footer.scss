@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+footer>div {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bottom_logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    span {
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    p {
+        font-weight: lighter;
+        color: #6f6f6f;
+        font-size: 15px;
+    }
+    img {
+        padding: 10px;
+    }
+}
